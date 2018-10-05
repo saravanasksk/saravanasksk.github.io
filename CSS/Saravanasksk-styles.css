@@ -3,6 +3,11 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .clr{
@@ -51,9 +56,9 @@ nav{
 header{
 	background-color:  #374859;
 	height: 100vh;
-	width: 100%;
-	background-size: cover;
-	background-position: center;
+	width:1600px;
+	padding: 50px;
+
 }
 header h1{
 	text-align: center;
@@ -221,18 +226,29 @@ footer{
 	height: 200px;
 	width: 100%;
 }
- @media (max-width: 500px){
-      body{
-        
-      }
- header h1{
-        font-size:26px;
-      }
- .menu li{
-        display:block;
-        padding:5px;
-      }
-    }
+ /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+	
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+	
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+
 
 
 
