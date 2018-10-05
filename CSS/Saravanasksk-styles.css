@@ -226,6 +226,7 @@ footer{
 	height: 200px;
 	width: 100%;
 }
+
  /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -249,6 +250,19 @@ footer{
   }
 }
 
+ /*@media (max-width: 500px){
+      body{
+        
+      }
+ header h1{
+        font-size:26px;
+      }
+ .menu li{
+        display:block;
+        padding:5px;
+      }
+    }
+*/
 
 
 
