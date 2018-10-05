@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clr{
+	clear: both;
+}
+
+body{
+	line-height: 1.6em;
+}
+
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+nav{
+	width: 100%;
+	background-color: deeppink;
+	position: fixed;
+}
+.menu{
+	
+	padding: 20px;
+	height: 20px;
+			
+}
+.menu li{
+	display: inline;
+	margin-right: 30px;
+}
+.menu ul{
+	float: right;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.menu li a:hover{
+	border: 2px white solid;
+	padding: 10px;
+	border-radius: 20px;
+	
+}
+header{
+	background-color: deepskyblue;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+header h1{
+	text-align: center;
+	top: 280px;
+	position: relative;
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+nav.black{
+	background-color: black;
+}
+
+
+.timeline {
+	padding: 40px 0px;
+	width: 100%;
+	margin-left: 10%;
+	margin-bottom: 40px;
+	line-height: 3.5em;
+}
+
+/*.timeline:before {
+	content: "";
+	position:sticky;
+	top: 800px;
+	left: 65px;
+	width: 3px;
+	height: calc(100% - 80px);
+	background:blue;
+}*/
+
+.timeline .column {
+	margin: 40px 40px 40px 50px;
+	
+}
+
+.timeline .column .title h1 {
+	font-size: 120px;
+	color: rgba(0,0,0,0.1);
+	font-family: serif;
+	letter-spacing: 3px;
+}
+
+/*.timeline .column .title h1:before {
+	content: "";
+	position: absolute;
+	left: -62px;
+	top: 86px;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border: 3px solid green;
+}*/
+
+.timeline .column .title h2 {
+	margin-top: -60px;
+	font-size: 33px;
+}
+
+.timeline .column .description li {
+	font-size: 16px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: serif;
+}
+
+.timeline .column .description {
+	border-left: 1px solid #000;
+}
+
+.main {
+	width: 100%;
+	margin-left: 0;
+	margin-top: 80px;
+}
+
+.main h1 {
+	font-size: 80px;
+	line-height: 60px;
+}
+
+.skills-area{
+	padding: 40px 0px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 40px;
+	line-height: 3.5em;
+}
+/** working part **/
+ .skills-area .skills-part .skills-list li{
+	
+}
+
+.skills-area .skills-part .skills-title{
+	margin-top: 5px;
+	font-size: 23px;
+}
+
+/*.skills-list p{
+	display: inline;
+	border: 1px solid black;
+	padding: 5px;
+	
+}*/
+
+.skills-list li{
+	list-style: none;
+	border: 1px solid black;
+	display: inline;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 10px;
+	margin-left: 5px;
+	margin-top: 10px;
+	font-family: serif;
+}
+
+.skills-list li:hover{
+	border-style: dotted;
+	background-color: lightslategray;
+	color: white;
+	border: 1px white solid;
+}
+
+.skills-part{
+	float: left;
+	width: 25%;
+	min-width: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.project{
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	box-sizing: border-box;
+	
+}
+.project .pro-img img{
+	width: 200px;
+	height: 200px;
+}
+
+footer{
+	background-color: black;
+	height: 200px;
+	width: 100%;
+}
+
+
+
+
