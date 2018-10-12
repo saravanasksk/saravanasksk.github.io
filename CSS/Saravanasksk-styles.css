@@ -4,10 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
-
 }
-
-
 body {
 	line-height: 1.6em;
 	/*important find hw to work this following lines*/
@@ -33,13 +30,9 @@ body {
 	clear: both;
 }
 
-
 /******************nav*******************/
 
-
-
-nav{
-
+nav {
 	width: 100%;
 	position: fixed;
 	height: 60px;/*right: 30px;*/
@@ -50,41 +43,25 @@ nav{
 
 }
 
-
-
-
-.menu{
-
+.menu {
 	padding: 20px;
 }
 
-
-
-
-.menu li{
-
+.menu li {
 	display: inline;
 	margin-right: 30px;
 }
 
-
-
-
-.menu ul{
-
+.menu ul {
 	float: right;
 	margin-right: 10px;
 }
-
 
 /*.menu .icon {
 	 display: none;
 }*/
 
-
-
-.menu li a{
-
+.menu li a {
 	text-decoration: none;
 	color: white;
 	font-size: 18px;
@@ -117,13 +94,11 @@ header h1 {
 	position: relative;
 	color: white;
 	font-size: 40px;
-}
-
-.menu li a:hover{
-	border: 2px white solid;
-	padding: 10px;
-	border-radius: 20px;
+	letter-spacing: 2px;
+	line-height: 1.6em;
 	
+	
+
 }
 
 header h4 {
@@ -135,7 +110,6 @@ header h4 {
 	letter-spacing: 3px;
 	font-family: 'Iceland', cursive;
 }
-
 
 /*header h4:hover {
    background: -webkit-linear-gradient(blue,white);
@@ -185,8 +159,6 @@ nav .menu a.red {
 }
 
 /********************timeline****************/
-
-
 .timeline {
 	padding: 40px 0px;
 	width: 100%;
@@ -334,11 +306,7 @@ nav .menu a.red {
 	padding: 40px 0px;
 	box-sizing: border-box;
 }
-
-
-
-.project .pro-img img{
-
+.project .pro-img img {
 	width: 200px;
 	height: 200px;
 	position: relative;
@@ -352,16 +320,11 @@ nav .menu a.red {
 /***** Footer *****/
 
 footer{
-
 	height: 250px;
 	width: 100%;
 	background: #232526;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	background-color: black;
-	height: 200px;
-	width: 1600px;
 
 }
 
