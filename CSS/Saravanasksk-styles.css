@@ -208,6 +208,7 @@ nav .menu a.red {
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 30px;
+	letter-spacing:1px;
 }
 
 .project-brief::first-letter{
