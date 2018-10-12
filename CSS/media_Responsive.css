@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Mobile Styles */
+/* @media only screen and (max-width: 600px) {
+ body {
+	background-color: #F09A9D; 
+}
+
+header h1 {
+	
+	font-size: 28px;
+}
+header h4 {
+	font-size: 15px;
+}
+nav {
+	position: relative;
+}
+.menu {
+	position: relative;
+}
+.menu a {
+	display: none;
+}
+.menu a.icon {
+	float: right;
+	display: block;
+	position: relative;
+	right: 20px;
+}
+} */
+
+/*@media screen and (max-width: 600px) {
+ .menu.responsive {
+	position: relative;
+}
+.menu.responsive .icon {
+	position: relative;
+	right: 20px;
+	top: 0;
+}
+.menu.responsive a {
+	float: none;
+	display: block;
+	text-align: center;
+}
+}*/
+
