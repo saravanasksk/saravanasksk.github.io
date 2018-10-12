@@ -57,9 +57,6 @@ nav {
 	margin-right: 10px;
 }
 
-/*.menu .icon {
-	 display: none;
-}*/
 
 .menu li a {
 	text-decoration: none;
@@ -82,7 +79,6 @@ header {
 	background: #0575E6;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 	height: 100vh;
 	width: 100vw;
 	background-size: cover;
@@ -91,6 +87,7 @@ header {
 header h1 {
 	text-align:left;
 	top: 260px;
+	left: 100px;
 	position: relative;
 	color: white;
 	font-size: 40px;
@@ -104,6 +101,7 @@ header h1 {
 header h4 {
 	text-align: center;
 	top: 260px;
+	left: 80px;
 	position: relative;
 	color: white;
 	font-size: 25px;
@@ -167,15 +165,6 @@ nav .menu a.red {
 	line-height: 3.5em;
 }
 
-/*.timeline:before {
-	content: "";
-	position:sticky;
-	top: 800px;
-	left: 65px;
-	width: 3px;
-	height: calc(100% - 80px);
-	background:blue;
-}*/
 
 .timeline .column {
 	margin: 40px 40px 40px 50px;
@@ -188,16 +177,6 @@ nav .menu a.red {
 	letter-spacing: 3px;
 }
 
-/*.timeline .column .title h1:before {
-	content: "";
-	position: absolute;
-	left: -62px;
-	top: 86px;
-	width: 10px;
-	height: 10px;
-	background: #fff;
-	border: 3px solid green;
-}*/
 
 .timeline .column .title h2 {
 	margin-top: -60px;
@@ -208,8 +187,12 @@ nav .menu a.red {
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 30px;
+	letter-spacing: 1px;
 }
 
+.timeline .column .title p i{
+	font-size: 15px;
+}
 .project-brief::first-letter{
 	font-size: 30px;
 }
@@ -241,7 +224,7 @@ nav .menu a.red {
 	font-family: 'Oswald', sans-serif;
 }
 
-/******************************skills***********************/
+/***************************skills********************/
 .skills-list {
 	padding: 40px 0px;
 	width: 80%;
@@ -250,17 +233,6 @@ nav .menu a.red {
 	line-height: 3.5em;
 }
 
-/*.skills .skills-part .skills-title{
-	margin-top: 5px;
-	font-size: 23px;
-}*/
-
-/*.skills-list p{
-	display: inline;
-	border: 1px solid black;
-	padding: 5px;
-	
-}*/
 
 .skills-list li {
 	list-style: none;
@@ -276,46 +248,13 @@ nav .menu a.red {
 	background: #232526;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 	color: white;
 	letter-spacing: 1px;
 }
 
-/*.skills-list li:hover {
-	 border-style: dotted;
-	background-color: lightslategray;
-	color: white;
-	border: 1px white solid;
-}*/
-
-/*.skills-part{
-	float: left;
-	width: 25%;
-	min-width: 200px;
-	padding: 10px;
-	box-sizing: border-box;
-}
-*/
 
 /*****************projects and portfolio***********/
-.project {
-	position: relative;
-	float: left;
-	width: 33.33%;
-	padding: 40px 0px;
-	box-sizing: border-box;
-}
-.project .pro-img img {
-	width: 200px;
-	height: 200px;
-	position: relative;
-	left: 70px;
-}
-.project .description p {
-	width: 80%;
-	text-align: center;
-}
+
 
 /***** Footer *****/
 
@@ -375,11 +314,6 @@ footer .social-links {
 	position: relative;
 }
 .social-links li {
-	/*position: relative;
-	 list-style: none;
-	display: inline;*/
-	
-	
 	list-style: none;
 	display: inline;	
 	padding: 15px;
@@ -388,20 +322,6 @@ footer .social-links {
 .social-links li a{
 	
 	font-size: 30px;
-	
-	
-	/*width: 60px;
-	height: 60px;
-	background: #fff;
-	text-align: center;
-	line-height: 60px;
-	font-size: 25px;
-	margin: 0 20px;
-	display: block;
-	border-radius: 50%;
-	border: 1px solid #fff;
-	position: relative;
-	overflow: hidden;*/
 	
 }
 
@@ -435,7 +355,6 @@ ul li a:hover .fab{
 	background: #000000;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 	width: 100%;
 	text-align: center;
 	font-family: 'Alegreya Sans SC', sans-serif;
