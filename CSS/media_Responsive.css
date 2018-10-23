@@ -4,64 +4,35 @@
  /*Mobile Styles */
  @media only screen and (max-width: 700px) 
  {
-
-header h1 {
-	text-align:center;
-	top: 280px;
-	left: 100px;
-	position: relative;
-	color: white;
-	font-size: 20px;
-	letter-spacing: 1px;
-	line-height: 1.6em;
 	
+	 .left-hello{
+		 display: none;
+	 }
 	
+	 .right-about{
+		 width: 70%;
+	 }
 
 }
 
-header h4 {
-	text-align: center;
-	top: 290px;
-	left: 95px;
-	position: relative;
-	color: white;
-	font-size: 20px;
-	letter-spacing: 3px;
-	font-family: 'Iceland', cursive;
-}
-
-/*header h4:hover {
-   background: -webkit-linear-gradient(blue,white);
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}*/
-
-.sk-name{
-	right: 100px;
-	top:-30px;
-}
-
-
-.hello{
-	font-size: 50px;
-	font-family: 'Cinzel Decorative', cursive;
-	letter-spacing: 7px;
-	position: relative;
-	bottom: 10px;
+@media only screen and (max-width: 1500px)
+{
 	
+	.left-hello{
+		float: left;
+		color: white;
+		width: 50%;
+		position: relative;
+		top: 45%;
+		left: 8%;
+
+
 	
 }
-.iam{
-	font-size: 10px;
-	font-family: 'Merienda One', cursive;
-
-}
-.sk{
-	font-size: 30px;
-	font-family: 'Alegreya SC', serif;
-	letter-spacing: 4px;
+	.left-hello h1{
+		font-size: 50px;
+		letter-spacing: 3px;
+	}
 	
 	
-}
-
 }
