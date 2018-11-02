@@ -162,65 +162,6 @@ header {
 	color: #FF9912;
 	text-shadow: 1px 1px 4px black;
 }
-/*header h1 {
-	text-align:left;
-	top: 260px;
-	left: 100px;
-	position: relative;
-	color: white;
-	font-size: 40px;
-	letter-spacing: 2px;
-	line-height: 1.6em;
-	
-	
-
-}*/
-
-/*header h4 {
-	text-align: center;
-	top: 260px;
-	left: 80px;
-	position: relative;
-	color: white;
-	font-size: 25px;
-	letter-spacing: 3px;
-	font-family: 'Iceland', cursive;
-}*/
-
-/*header h4:hover {
-   background: -webkit-linear-gradient(blue,white);
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}*/
-
-/*.sk-name{
-	float: right;
-	position: relative;
-	right: 300px;
-	top:-30px;
-}
-
-
-.hello{
-	font-size: 70px;
-	font-family: 'Cinzel Decorative', cursive;
-	letter-spacing: 7px;
-	
-}
-.iam{
-	font-size: 20px;
-	font-family: 'Merienda One', cursive;
-
-}
-.sk{
-	font-size: 50px;
-	font-family: 'Alegreya SC', serif;
-	letter-spacing: 4px;
-	
-	
-}
-*/
-
 
 
 /**************for script***************/
