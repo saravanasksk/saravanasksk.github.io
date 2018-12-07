@@ -66,6 +66,81 @@ nav {
 	right: 10%;
 }
 /********skills**********/
+
+	 
+	 .timeline .column .title h1
+	 {
+		font-size: 90px;
+		letter-spacing: 2px;		
+	 }
+	 
+	 .timeline .column .title h2
+	 {
+		letter-spacing: 1px;
+		font-size: 21px;
+	
+	 }
+
+	.timeline .column .title h3
+	 {
+		font-size: 16px;
+		
+		
+		letter-spacing: 1px;
+	}
+	 
+	
+	 .timeline .column .title p
+	 {
+		
+		font-size: 14px;
+		width: 110%;
+		text-align: justify;
+	
+		}
+	 .timeline .column .description li 
+	 {
+		font-size: 15px;
+		width: 85%;
+	 }
+	 
+	 .right-about
+	 {
+		 right: 10%;
+	 }
+	 
+	 /********skills**********/
+	 
+	 .skills-list
+	 {
+		
+		width: 85%;
+		margin-left: 2%;
+		margin-bottom: 40px;
+		line-height: 3.5em;
+	}
+
+
+.skills-list li
+	 {
+		
+		padding: 10px;
+		font-size: 13px;
+		line-height: 8px;
+		margin-top: 8px;
+		
+		margin-left: 20px;
+		margin-bottom: 15px;
+		
+	}
+	 
+	 .copy-right h5
+	 {
+		position: relative;
+		 top: 5px;
+		 
+		 
+	 }
 	 
 .skills-list {
 	width: 85%;
@@ -108,17 +183,24 @@ footer {
 }
 }
 
-@media only screen and (max-width: 1500px) {
-.left-hello {
-	float: left;
-	color: white;
-	width: 50%;
-	position: relative;
-	top: 45%;
-	left: 8%;
+
+@media only screen and (max-width: 1500px)
+{
+	
+	.left-hello{
+		float: left;
+		color: white;
+		width: 50%;
+		position: relative;
+		top: 45%;
+		left: 8%;
+
+
+	
 }
-.left-hello h1 {
-	font-size: 50px;
-	letter-spacing: 3px;
-}
+	.left-hello h1{
+		font-size: 50px;
+		letter-spacing: 3px;
+	}
+	
 }
