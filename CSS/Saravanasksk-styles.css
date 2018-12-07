@@ -198,6 +198,7 @@ nav .menu a.red {
 	position: absolute;
 	margin-top: 20px;
 	
+	
 }
 
 
@@ -205,6 +206,7 @@ nav .menu a.red {
 	margin-top: -30px;
 	font-size: 28px;
 	font-family: 'Alegreya Sans SC', sans-serif;
+	z-index: 7;
 	
 }
 
@@ -406,8 +408,8 @@ ul li a:hover .fab{
 .fa-github{
 	color: whitesmoke;
 }
-.fa-instagram{
-	color: #e4405f;
+.fa-codepen{
+	color: #ffffff;
 }
 
 .copy-right{
