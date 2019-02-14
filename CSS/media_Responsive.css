@@ -32,6 +32,7 @@ nav {
 	}
 .right-about {
 	width: 75%;
+	border: none;
 }
 .right-about p{
 	padding: 7px;
