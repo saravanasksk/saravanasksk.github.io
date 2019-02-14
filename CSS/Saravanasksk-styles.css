@@ -11,19 +11,30 @@ body {
 	/*important find hw to work this following lines*/
 	display: flex;
 	flex-wrap: wrap;
-	background: #8e9eab;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #ffffff;  /* fallback for old browsers */
+
 
 	
+}
+
+.sk-logo{
+	position: absolute;
+	z-index: 4;
+	color: #ffffff;
+	left: 50px;
+	top: 20px;
+	font-size: 25px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+
 }
 .container {
 	width: 80%;
 	position: relative;
 	margin: 50px auto;
-	background: #8e9eab;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #ffffff;  /* fallback for old browsers */
+	
 	
 
 }
@@ -37,12 +48,11 @@ body {
 nav {
 	width: 100%;
 	position: fixed;
-	
 	height: 65px;/*right: 30px;*/
 	z-index: 3;
-	background: #232526;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #3c415e;  /* fallback for old browsers */
+
+
 }
 
 .menu {
@@ -80,9 +90,9 @@ nav {
 
 /********************************header********************/
 header {
-	background: #232526;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #2f89fc;
+
+
 
 	height: 100vh;
 	width: 100%;
@@ -129,8 +139,9 @@ header {
 	font-size: 30px;
 	padding: 10px;
 	letter-spacing: 2px;
-	color:#FF4136;
+	color:#f3f8ff;
 	text-decoration: underline;
+	
 	
 	
 
@@ -142,7 +153,7 @@ header {
 
 .right-about p{
 	padding: 10px;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 1px;
 	font-family: 'Gafata', sans-serif;
@@ -159,21 +170,20 @@ header {
 	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	color: #FF9912;
+	color: #f3f8ff;
 	text-shadow: 1px 1px 4px black;
 }
 
 
 /**************for script***************/
 nav.black {
-	background: #000000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #2f89fc;  /* fallback for old browsers */
+	
 
 }
 
 nav .menu a.red {
-	color: whitesmoke;
+	color: #ffffff;
 }
 
 /********************timeline****************/
@@ -207,6 +217,8 @@ nav .menu a.red {
 	font-size: 28px;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	z-index: 7;
+	color: #233142;
+	
 	
 }
 
@@ -215,6 +227,7 @@ nav .menu a.red {
 	line-height: 1.2em;
 	font-family: 'Iceland', cursive;
 	letter-spacing: 2px;
+	color: #233142;
 }
 
 .timeline .column .title p{
@@ -224,6 +237,7 @@ nav .menu a.red {
 	line-height: 20px;
 	letter-spacing: 1px;
 	width: 90%;
+	color: #233142;
 	
 }
 
@@ -279,6 +293,7 @@ nav .menu a.red {
 	font-size: 65px;
 	line-height: 65px;
 	font-family: 'Oswald', sans-serif;
+	color: #00204a;
 }
 
 /***************************skills********************/
@@ -319,9 +334,7 @@ nav .menu a.red {
 footer{
 	height: 250px;
 	width: 100%;
-	background: #232526;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #233142;
 
 }
 
@@ -406,7 +419,7 @@ ul li a:hover .fab{
 	color: #0077B5;
 }
 .fa-github{
-	color: whitesmoke;
+	color: #ffffff;
 }
 .fa-codepen{
 	color: #ffffff;
@@ -414,9 +427,7 @@ ul li a:hover .fab{
 
 .copy-right{
 	margin-top:0;
-	background: #000000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #233142; 
 	width: 100%;
 	text-align: center;
 	font-family: 'Alegreya Sans SC', sans-serif;

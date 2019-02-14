@@ -4,18 +4,21 @@
 
  /*Mobile Styles */
 @media only screen and (max-width: 700px) {
+	.sk-logo{
+		display: none;
+	}
 nav {
 	width: 100%;
 	position: relative;
-	height: 135px;/*right: 30px;*/
-	margin-bottom: -110px;
-	background: #000000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 120px;/*right: 30px;*/
+	margin-bottom: -120px;
+	background: #233142;
+	
 }
 .menu ul {
 	float: none;
 	text-align: center;
+	margin-top: -19px;
 }
 .menu li {
 	display: block;
@@ -24,8 +27,17 @@ nav {
 .left-hello {
 	display: none;
 }
+	.right-about > h2{
+		display: none;
+	}
 .right-about {
-	width: 70%;
+	width: 75%;
+}
+.right-about p{
+	padding: 7px;
+	font-size: 15px;
+	line-height: 21px;
+		
 }
 .main-heading h1 {
 	font-size: 50px;
@@ -169,6 +181,7 @@ footer {
 .social-links ul {
 	margin: 0 auto;
 	top: 60px;
+	
 }
 .social-links li {
 	padding: 13px;
@@ -180,6 +193,12 @@ footer {
 	position: relative;
 	top: 5px;
 	font-size: 12px;
+}
+	.fa-github{
+	color: #000000;
+}
+.fa-codepen{
+	color: #000000;
 }
 }
 
