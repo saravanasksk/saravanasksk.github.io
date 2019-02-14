@@ -13,7 +13,7 @@ nav {
 	height: 120px;/*right: 30px;*/
 	margin-bottom: -120px;
 	background: #233142;
-	
+
 }
 .menu ul {
 	float: none;
@@ -37,6 +37,12 @@ nav {
 	padding: 7px;
 	font-size: 15px;
 	line-height: 21px;
+		
+}
+.right-about p{
+	padding: 8px;
+	font-size: 16px;
+	line-height: 24px;
 		
 }
 .main-heading h1 {
