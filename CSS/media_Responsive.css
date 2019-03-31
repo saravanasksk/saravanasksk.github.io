@@ -130,28 +130,10 @@ nav {
 	 
 	 /********skills**********/
 	 
-	 .skills-list
-	 {
-		
-		width: 85%;
-		margin-left: 2%;
-		margin-bottom: 40px;
-		line-height: 3.5em;
-	}
+	
 
 
-.skills-list li
-	 {
-		
-		padding: 10px;
-		font-size: 13px;
-		line-height: 8px;
-		margin-top: 8px;
-		
-		margin-left: 20px;
-		margin-bottom: 15px;
-		
-	}
+
 	 
 	 .copy-right h5
 	 {
@@ -161,20 +143,7 @@ nav {
 		 
 	 }
 	 
-.skills-list {
-	width: 85%;
-	margin-left: 2%;
-	margin-bottom: 40px;
-	line-height: 3.5em;
-}
-.skills-list li {
-	padding: 10px;
-	font-size: 13px;
-	line-height: 8px;
-	margin-top: 8px;
-	margin-left: 20px;
-	margin-bottom: 15px;
-}
+
 footer {
 	height: 200px;
 }

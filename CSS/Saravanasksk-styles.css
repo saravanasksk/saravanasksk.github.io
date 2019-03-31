@@ -4,6 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -297,33 +298,50 @@ nav .menu a.red {
 }
 
 /***************************skills********************/
-.skills-list {
-	padding: 40px 0px;
+
+.skills-list p{
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: 800;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	
+}
+.skills-container {
+  width: 70%;	
+  background-color: #ddd;
+	
+	
+}
+
+.skill {
+  text-align: right;
+  padding: 2px;
+  color: white;
+	
+}
+
+.html, .css, .c, .csharp, .css, .java, .wpf, .sql
+{ 
+	background-color: #2f89fc;
+}
+.html, .css{
+	width: 90%;
+	
+}
+.csharp{
+	width: 85%;
+}
+.c{
+	width: 90%;
+}
+.java, .sql{
+	width: 60%;
+}
+.wpf{
 	width: 80%;
-	margin-left: 10%;
-	margin-bottom: 40px;
-	line-height: 3.5em;
 }
 
-
-.skills-list li {
-	list-style: none;
-	border: 1px solid grey;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	display: inline-table;
-	padding: 15px;
-	font-size: 16px;
-	line-height: 10px;
-	margin-top: 10px;
-	font-family: 'Racing Sans One', cursive;
-	margin-left: 40px;
-	margin-bottom: 20px;
-	background: #232526;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: white;
-	letter-spacing: 1px;
-}
 
 
 /*****************projects and portfolio***********/
