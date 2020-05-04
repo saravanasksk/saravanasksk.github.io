@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.parent {
+
+background-color: aqua;
+padding: 50px;
+width: 80%;
+margin: 0 auto;
+}
+
+.child{
+
+    background-color: red;
+    padding: 5em;  /* 16px * 5 = 80px */
+}
